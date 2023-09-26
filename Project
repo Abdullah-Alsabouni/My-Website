@@ -2,10 +2,32 @@
 <html>
     <head>
         <title> This is my web site  </title>
-        <meta charset="UTF-8" content = "device-width, initial-scale = 1.0"/>
+        <meta charset="UTF-8" />
+        <meta  content = "device-width, initial-scale = 1.0"/>
+        <style>
+            body {
+                background: gold;
+            }
+           
+            h3 {
+              color: blue;
+              
+            }
+          
+            #text-link {
+                color: red;
+              text-decoration: none;
+
+            }
+        </style>
     </head>
     <body>
-        <img src = "./images/image2.jpeg" alt = "My photo" width="200" height="200px" >
-        <a href="http://127.0.0.1:5500/18.My-Website.html" target = "_blank" title = "My Web site link"> Click to go to my website</a>
+        
+        <img src="images/image2.jpeg" alt = "My photo" width="200" height="200px"> <br />
+        <a href="http://127.0.0.1:5500/18.My-Website.html" id = "text-link" title = "My Web site link"> Click to go to my website</a> <br />
+        <h3>ABDULLAH ALSABOUNİ</h3>
+        <h3>Ondokuz mayıs university student</h3>
+        <h3>Computer Enjineer | Web developer</h3> 
+        
     </body>
 </html>
