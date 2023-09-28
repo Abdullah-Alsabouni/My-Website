@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> This is my web site  </title>
-        <meta charset="UTF-8" />
-        <meta  content = "device-width, initial-scale = 1.0"/>
-        <style>
-            body {
-                background: gold;
-            }
-           
-            h3 {
-              color: blue;
-              
-            }
-          
-            #text-link {
-                color: red;
-              text-decoration: none;
 
-            }
-        </style>
-    </head>
-    <body>
-        
-        <img src="images/image2.jpeg" alt = "My photo" width="200" height="200px"> <br />
-        <a href="http://127.0.0.1:5500/18.My-Website.html" id = "text-link" title = "My Web site link"> Click to go to my website</a> <br />
-        <h3>ABDULLAH ALSABOUNİ</h3>
-        <h3>Ondokuz mayıs university student</h3>
-        <h3>Computer Enjineer | Web developer</h3> 
-        
-    </body>
+<head>
+    <title> This is my web site </title>
+    <meta charset="UTF-8" />
+    <meta content="device-width, initial-scale = 1.0" />
+    <style>
+       body {
+
+        background: gold;
+
+        }
+
+        h1 {
+            color: blue;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+
+        #text-link {
+            color: red;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #text-link:hover {
+            color: blue;
+        }
+
+      
+        div {
+            width: 350px; ;
+            height: 350px;
+            background-image: url(images/image2.jpeg);
+            background-size: contain;
+            background-position: center;
+            margin: 0 auto;
+            border: 2px solid red;
+            border-radius: 300px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div></div> 
+    <h1>ABDULLAH ALSABOUNİ</h1>
+    <h1>Ondokuz mayıs university student</h1>
+    <h1>Computer Enjineer | Web developer</h1> <br />
+    <a href="http://127.0.0.1:5500/18.My-Website.html" id="text-link" title="My Website link"> Click to go to my website</a>
+
+</body>
+
 </html>
